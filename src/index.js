@@ -1,6 +1,7 @@
 import React from "react";
+import { router } from 'next/router'
 import { render } from "react-dom";
-import { Button } from "rsuite";
+import { Button, Form } from "rsuite";
 
 import "rsuite/dist/rsuite.min.css";
 
@@ -9,9 +10,13 @@ const styles = {
   textAlign: "center"
 };
 
+const Steps = () => {
+
+}
+
 const App = () => (
   <div style={styles}>
-    <Button>Hello World</Button>
+    <Button>Настройки</Button>
   </div>
 );
 
