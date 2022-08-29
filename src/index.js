@@ -1,5 +1,5 @@
 import React from "react";
-import { router } from 'next/router'
+
 import { render } from "react-dom";
 import { Button, Form } from "rsuite";
 
