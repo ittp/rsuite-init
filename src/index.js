@@ -1,6 +1,6 @@
 import React from "react";
-
-import { render } from "react-dom";
+import { router } from 'next/router'
+// import { render } from "react-dom";
 import { Button, Form } from "rsuite";
 
 import "rsuite/dist/rsuite.min.css";
@@ -20,4 +20,6 @@ const App = () => (
   </div>
 );
 
-render(<App />, document.getElementById("root"));
+
+export default App
+// render(<App />, document.getElementById("root"));
